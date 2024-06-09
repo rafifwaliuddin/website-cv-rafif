@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTP - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>  
+    <div class="container">
+      <div class="header">
+        <div class="img-area">
+            <img id="foto" src="rapip.png" alt="">
+        </div>
+        <h1>Rafif Waliuddin</h1>
+        <h3>Mahasiswa Pendidikan Teknologi Informasi</h3>
+        <br>
+        <button onclick="toggleFoto()">Tampilkan/sembunyikan Foto</button>
+        <div id="dateTime" align="center"></div>
+        <br>
+        <input type="text" id="inputNama" placeholder="Masukkan Nama Baru">
+        <button onclick="gantiNama()">Ubah Nama</button>    
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <h2>Biodata Diri</h2>
+          <p><strong>Nama:</strong></p>
+          <p id="nama">Rafif Waliuddin</p>
+          <p><strong>NPM:</strong> 2213025038</p>
+          <p><strong>Tempat Tanggal Lahir:</strong> Pangkal Pinang, 19 Oktober 2004</p>
+          <p><strong>Email:</strong> rafifwlddn10@gmail.com</p>
+
+          <h2>Alamat</h2>
+          <ul>
+            <li>Lampung Selatan</li>
+          </ul>
+
+          <h2>Skill</h2>
+                 <ul>
+            <li>
+                <span>C++</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 50%;"></div>
+                </div>
+            </li>
+            <li>
+                <span>Javascript</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 20%;"></div>
+                </div>
+            </li>
+            <li>
+                <span>Html dan Css</span>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </li>
+        </ul>
+        </div>  
+        <div class="right">
+          <h2>Minat</h2>
+          <ul>
+              <li>Berminat di Bidang Rekayasa Perangkat Lunak dan Mempelajari Bahasa Pemrograman</li>
+
+          </ul> <br>
+          <h2>Motivasi</h2>
+          <ul>
+            <li>“Ingin Menjadi seorang Software Developer dan Web Developer,
+                dengan harapan bisa mengembangkan aplikasi dan website
+                yang bermanfaat”</li>
+          </ul>
+  
+          <h2>Bahasa</h2>
+          <ul>
+              <li>
+                  <span>Bahasa Indonesia</span>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 80%;"></div>
+                  </div>
+              </li>
+              <li>
+                  <span>Bahasa Inggris</span>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 40%;"></div>
+                  </div>
+              </li>
+              <li>
+                  <span>Bahasa Jawa</span>
+                  <div class="skill-bar">
+                      <div class="skill-level" style="width: 90%;"></div>
+                  </div>
+              </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div> 
+    <footer class="fixed-footer">
+      <p>&copy; 2023 Rafif Waliuddin</p>
+  </footer>
+  
+</body>
+</html>
